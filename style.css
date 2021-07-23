@@ -1,8 +1,9 @@
 *{
 	margin: 0 ;
 	padding: 0;
-}
 
+    box-sizing: border-box;
+}
 #banner{
 	background-image: linear-gradient(rgba(10,0,0,2),rgba(0,0.5,5,0)) ,url(couverture.jpg); 
 	background-size: cover;
@@ -244,6 +245,80 @@
 	width: 400px;
 	position: center;
 }
+=======
+
+body{
+    background-image: linear-gradient(rgba(68, 56, 56, 0.5),rgba(66, 41, 41, 0)), url(couverture4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.menu{
+    font-size: 25px;
+    text-align: center; 
+    font-style: inherit;    
+}
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    margin: 10px;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    border: 1px transparent;
+    transition: 0.8s ease-in-out;
+    transform: 3D;
+    color:green;
+}
+.menu ul li:hover{
+    text-shadow: violet;
+    background-color: red;
+    color: silver;
+   display: block;
+}
+.active {
+    background-color: black;
+    border: 1px transparent;
+    
+}
+
+.menu .fa{
+    margin-right: 8px;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu1 ul {
+    display: block;
+}
+.menu ul li:hover .sub-menu1 ul li {
+    display: flex;
+    background-color: thistle;
+}
+.menu ul li:hover .sub-menu1 ul li:hover{
+    background-color:rgb(212, 80, 56);
+    color: rgb(191, 211, 14);
+    transition: 0.9s ease-in;
+    transform: 3D;
+}
+
+
+
+
 
 
 
