@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image :linear-gradient(rgba(12,10,0,0.5),rgba(12,10,0,0.5)), url(C:/User/pc/Desktop/website/ss.jpg);
+	height : 100vh;
+	background-size: cover;
+	background-position:center;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 25px;
+
+}
+ul li{
+	display: inline-flex;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:5px 20px;
+	border :1px  transparent;
+	border-style: double;
+	transition: 0.8s ease;
+	transform: 3D; 
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+	lighting-color: #ddd;
+
+
+}
+ul li.active a{
+	background-color: #000;
+	color: #fff;
+}
+.logo img{
+	float:	left;
+	width:	50px;
+	height:	auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color:#fff;
+	font-size: 60px;
+	
+	
+
+}
+.button{
+	position: absolute;
+	top: 70%;
+	right: 25%;
+	transform: translate(-95%,0%);
+}
+.btn {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding:5px 25px;
+	border :1px  transparent;
+	border-style: 3D;
+	transition: 0.8s ease;
+	transform: 3D;
+}
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+	
+
+
+}
+}
