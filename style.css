@@ -1,9 +1,251 @@
 *{
-    margin: 0;
-    padding: 0;
+	margin: 0 ;
+	padding: 0;
+
     box-sizing: border-box;
+}
+#banner{
+	background-image: linear-gradient(rgba(10,0,0,2),rgba(0,0.5,5,0)) ,url(couverture.jpg); 
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.logo{
+	height:75px;
+	width: 75px;
+	float:left;
+}
+.banner-text{
+	position:absolute;
+	color: white;
+	top:30%;
+	left:25%;
 
 }
+.banner-text h1{
+	font-size: 150px;
+	font-style:italic;
+	padding-left: 80px;
+}
+.banner-text p{
+	font-size: 65px;
+	font-style:oblique;
+	color:#00FFFF;
+}
+.banner-btn{
+	text-align: center;
+	padding-top:45%;
+	
+
+}
+.banner-btn a{
+	border: solid;
+	border-width: 1px;
+	color: #006400;
+	margin: 2px;
+	padding: 2px;
+	text-decoration: none;
+	background-color: black;
+	transition: 0.8s ease;
+	transform:3D;
+	display: inline-flex;
+
+}
+.banner-btn a:hover{
+	background-color: red;
+	color: #fff;
+}
+
+.SideNav{
+	position: fixed;
+	top:0;
+	right:0;
+
+	
+}
+
+.SideNav a{
+	display: inline-flex;
+	margin: 5px;
+	padding: 2px;
+	border: solid;
+	border-width:1px;
+	transition: 0.8s ease;
+	transform: 3D;
+	background-color: black;
+	color: white; 	
+	text-decoration: none;
+	list-style-type: none;
+
+}
+.SideNav a:hover{
+	background-color: red;
+	color: white;
+}
+
+
+
+/*feature*/
+
+#feature{
+	width:100%;
+	padding:70px 0;
+}
+.title-text{
+	text-align: center;
+	padding-bottom:  70px;
+}
+.title-text p{
+	margin:auto;
+	font-size: 20px;
+	color:#009688;
+	font-weight: bold;
+}
+.title-text h1{
+	padding-top: 15px;
+	font-size: 50px;
+}
+
+.feature-box{
+	text-align: relative;
+	padding-bottom:  70px;
+}
+.feature-box img{
+
+	height: 400px;
+	width:350px;
+	float: right;
+	padding-right: 15%;
+	padding-bottom: 5%;
+
+}
+.feature{
+	padding: auto;
+	margin: auto;
+}
+.feature-desc {
+	float: left;
+	padding-top: 10%;
+	padding-left: 15%;
+}
+.feature-desc h1{
+	color: cyan;
+	font-style: italic;
+	font-size:40px;
+}
+.primo{
+	display: flex;
+	font-size: 25px;
+}
+.primo img{
+	height: 20px;
+	width: 20px;
+	position: left
+}
+.primo p{
+	position: left;
+}
+.secondo{
+	display: flex;
+	font-size: 25px;
+}
+.secondo img{
+	height: 20px;
+	width: 20px;
+	position: left
+}
+.tertio{
+	display: flex;
+	font-size: 25px;
+}
+.tertio img{
+	height: 20px;
+	width: 20px;
+	position: left
+}
+
+
+/*About*/
+
+#About{
+	width:100%;
+	padding:400px 0;
+}
+.title-text1{
+	text-align: center;
+	padding-bottom: 35px;
+}
+.title-text1 p{
+	margin:auto;
+	font-size: 20px;
+	color:#009688;
+	font-weight: bold;
+}
+.title-text1 h1{
+	padding-top: 15px;
+	font-size: 50px;
+}
+
+.feature-box1{
+	text-align: relative;
+	padding-bottom:  70px;
+}
+.feature-box1 img{
+	
+	height: 400px;
+	width:350px;
+	float: right;
+	padding-right: 15%;
+	padding-bottom: 5%;
+
+}
+.feature1{
+	padding: auto;
+	margin: auto;
+}
+.feature-desc1 {
+	float: left;
+	padding-top: 10%;
+	padding-left: 15%;
+		padding: auto;
+	margin: auto;
+}
+.feature-desc1 h1{
+	color: cyan;
+	font-style: italic;
+	font-size:40px;
+	padding-left: 35%;
+	padding-bottom: 10%
+
+}
+.primo1{
+	display: inline-flex;
+
+}
+.primo1 img{
+	height: 350px;
+	width: 400px;
+	position: center;
+}
+
+.secondo2{
+	display: inline-flex;
+}
+.secondo2 img{
+	height: 350px;
+	width: 400px;
+	position: center;
+}
+.tertio3{
+	display: inline-flex;
+	
+}
+.tertio3 img{
+	height: 350px;
+	width: 400px;
+	position: center;
+}
+=======
 
 body{
     background-image: linear-gradient(rgba(68, 56, 56, 0.5),rgba(66, 41, 41, 0)), url(couverture4.jpg);
